@@ -1,5 +1,5 @@
 <template>
-  <div class="h-100 d-flex align-center justify-space-between">
+  <div class="h-100 d-flex flex-wrap align-center justify-space-between">
     <!-- 👉 Footer: left content -->
     <span class="d-flex align-center">
       &copy;
@@ -17,6 +17,8 @@
         rel="noopener noreferrer"
         class="text-primary ms-1"
       >ThemeSelection</a>
+    </span>
+    <span class="d-flex align-center">
       Distributed By <a
         href="https://themewagon.com"
         target="_blank"
