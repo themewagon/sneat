@@ -49,6 +49,7 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 5000,
   },
+  base: '/sneat',
   optimizeDeps: {
     exclude: ['vuetify'],
     entries: [
